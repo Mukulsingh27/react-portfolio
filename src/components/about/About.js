@@ -14,7 +14,24 @@ const About = () => {
                     ></img>
                 </div>
             </div>
-            <div className="about__right">right</div>
+            <div className="about__right">
+                <div className="about__right_wrapper">
+                    {/* <h4 className="about_intro">Hello, My name is </h4> */}
+                    <h1 className="about_name">Mukul Singh</h1>
+                    <p className="about_desc">
+                        Data Scientist Enthusiast, Aiming to leverage proven
+                        critical thinking, problem-solving and management skills
+                        to meet the WEB APPLICATION Developer role, frequently
+                        praised as hardworking my peers.
+                        <br />
+                        <br />
+                        Data Scientist Enthusiast, Aiming to leverage proven
+                        critical thinking, problem-solving and management skills
+                        to meet the WEB APPLICATION Developer role, frequently
+                        praised as hardworking my peers.
+                    </p>
+                </div>
+            </div>
         </div>
     );
 };

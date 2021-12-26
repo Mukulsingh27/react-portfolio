@@ -41,3 +41,18 @@
     object-fit: cover;
     border-radius: 30px;
 }
+
+.about__right .about__right_wrapper {
+    width: 70%;
+}
+
+.about__right .about_name {
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+.about__right .about_desc {
+    text-align: justify;
+    font-size: 23px;
+    font-weight: 500;
+}
