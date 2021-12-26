@@ -1,6 +1,7 @@
 import React from "react";
 import "./intro.css";
-import mukul from "../../images/mukul.jpg";
+import mukul from "../../images/mukul.png";
+import MouseSVG from "./MouseSVG";
 
 const Intro = () => {
     return (
@@ -17,15 +18,17 @@ const Intro = () => {
                             <div className="i_title_item">Wanderlust</div>
                         </div>
                     </div>
-                    <div className="i_desc">
+                    <p className="i_desc">
                         Data Scientist Enthusiast, Aiming to leverage proven
                         critical thinking, problem-solving and management skills
                         to meet the WEB APPLICATION Developer role, frequently
                         praised as hardworking my peers.
-                    </div>
+                    </p>
+                    <MouseSVG />
                 </div>
             </div>
             <div className="intro__right">
+                <div className="i_bg"></div>
                 <img src={mukul} alt="" className="i_image" />
             </div>
         </div>
